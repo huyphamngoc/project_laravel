@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 Route::resource('AdminProductBook','Admin\ProductsBookController');
+
+Route::get('homepage','Client\HomepageController@Homepage');
+
+Route::get('demo','Client\HomepageController@demo');
+
+Route::get('demo1/{id}','Client\HomepageController@ProductDetail');

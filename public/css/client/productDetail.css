@@ -1,0 +1,11 @@
+.title-mycart h4{
+    border-bottom: 1px dashed green;
+}
+.title-mycart{
+    border-radius: 5px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.title-mycart .title-detail{
+    border-bottom: 1px dashed green;
+}

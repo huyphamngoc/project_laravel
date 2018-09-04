@@ -1,0 +1,20 @@
+.title-list-product-homepage{
+    border-bottom: 1px dashed #66645c;
+}
+
+.title-list-product-homepage h1 a{
+    color: #008340;
+    font-size: 20px;
+    text-decoration: none;
+}
+.product-item-listHomepage:hover{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-product-listHomepage a{
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+}
+.text-product-listHomepage :hover{
+    color: green;
+}
