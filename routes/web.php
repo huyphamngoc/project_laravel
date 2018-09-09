@@ -21,4 +21,4 @@ Route::get('homepage','Client\HomepageController@Homepage');
 
 Route::get('demo','Client\HomepageController@demo');
 
-Route::get('demo1/{id}','Client\HomepageController@ProductDetail');
+Route::get('productDetail/{id}','Client\HomepageController@ProductDetail');

@@ -84,11 +84,11 @@
                     @foreach($book as $key =>$item)
                         <div class="col-md-3  product-item-listHomepage" >
                             <div class="img-product-css text-center pt-5">
-                                <a href="/demo1/{{$item->id}}" ><img src="{{$item->image}}" style=" max-width: 100%;"></a>
+                                <a href="/productDetail/{{$item->id}}" ><img src="{{$item->image}}" style=" max-width: 100%;"></a>
                             </div>
                             <div class="text-product-listHomepage pt-3">
-                                <a href="#" class="text-dark"> <p class="text-center mb-0">{{$item->title}}</p></a>
-                                <a href="#" class="text-danger mt-3"> <p class="text-center font-weight-bold  mb-0">{{$item->price}} đ </p></a>
+                                <a href="/productDetail/{{$item->id}}" class="text-dark"> <p class="text-center mb-0">{{$item->title}}</p></a>
+                                <a href="/productDetail/{{$item->id}}" class="text-danger mt-3"> <p class="text-center font-weight-bold  mb-0">{{$item->price}} đ </p></a>
 
 
                             </div>
@@ -100,28 +100,23 @@
                 <div class="title-list-product-homepage" >
                     <h1><a style="font-size: 17px" href="#">Sách Bán Chạy Trong Tuần</a></h1>
                 </div>
-
                     @foreach($book as $key =>$item)
                         <div class="row col-md-12 bg-white product-item pt-3 pb-2">
                             <div class=" col-md-5 " >
                                 <div class="img-product float-left ">
-                                    <a href="#"><img src="{{$item->image}}" style="height: auto; max-width: 100%;"></a>
+                                    <a href="/productDetail/{{$item->id}}"><img src="{{$item->image}}" style="height: auto; max-width: 100%;"></a>
                                 </div>
                             </div>
                             <div class="col-md-7">
                                 <div class="text-product">
-                                    <a href="#" class="text-dark"> <p class="text-center mb-0" style="font-size: 14px">{{$item->title}}</p></a>
-                                    <a href="#" class="text-danger mt-3"> <p class="text-center font-weight-bold  mb-0">{{$item->price}} đ </p></a>
+                                    <a href="/productDetail/{{$item->id}}" class="text-dark"> <p class="text-center mb-0" style="font-size: 14px">{{$item->title}}</p></a>
+                                    <a href="/productDetail/{{$item->id}}" class="text-danger mt-3"> <p class="text-center font-weight-bold  mb-0">{{$item->price}} đ </p></a>
 
-                                </div>
-                                <div class="overlay">
-                                    <div class="text"><a href="#" class="text-white">Xem chi tiết</a></div>
                                 </div>
                             </div>
                         </div>
                     @endforeach
                 </div>
-
         </div>
     </div>
 @endsection
