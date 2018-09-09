@@ -44,9 +44,7 @@
                             <div class="carousel-item">
                                 <img style="width: 850px;height: 480px" class="d-block w-100" src="http://nhasachphuongnam.com/images/banner/201808/banner_web_khuyen-mai-he_925x412_CS.jpg" alt="Second slide">
                             </div>
-                            <div class="carousel-item">
-                                <img style="width: 850px;height: 480px" class="d-block w-100" src="http://nhasachphuongnam.com/images/banner/201808/banner_web_tu-sach-song-than-thai_925x412.jpg" alt="Third slide">
-                            </div>
+
                             <div class="carousel-item">
                                 <img style="width: 850px;height: 480px" class="d-block w-100" src="http://nhasachphuongnam.com/images/banner/201808/banner_web_tu-idol-kpop_925x412_CS.jpg" alt="Third slide">
                             </div>
