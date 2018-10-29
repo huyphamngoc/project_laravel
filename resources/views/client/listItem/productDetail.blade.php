@@ -15,7 +15,7 @@
                     <div class="infor-bookDetail">
                         <h3>{{$book->title}}</h3>
                         <p>Tác giả : <a href="#">{{$book->author}}</a></p>
-                        <button></button>
+
                         <p style="font-size: 15px; line-height: 26px; color: #66645c; font-family: Arial ;">{{$book->description}}</p>
                     </div>
                     <div>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 title-mycart">
-                    <h4 class="pt-3 pb-3">Thông tin thanh toán</h4>
+                    <h4 class="pt-3 pb-3">Thông tin thanh toán hihi</h4>
 
                     <div class="title-detail">
                         <p>Giá bán : <span class="float-right">{{$book->price}}</span> </p>
